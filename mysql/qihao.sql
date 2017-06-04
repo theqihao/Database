@@ -86,11 +86,11 @@ create table allowance
 	foreign key (id) references employee(id)
 	on delete cascade
 	on update cascade,
-	check (1 <= days and days <= 100),
-	check (100 <= money and money <= 5000)
+	check (1 <= days and days <= 50),
+	check (100 <= money and money <= 3000)
 );
-
 */
+
 
 /*
 insert into employee 

@@ -2,7 +2,6 @@
 	include "allowance.php";
 	include "menu.php";
 
-
 	$dbhost = 'localhost';  // mysql服务器主机地址
 	$dbuser = 'root';            // mysql用户名
 	$dbpass = '0';          // mysql用户名密码
@@ -58,14 +57,15 @@
 	function allowance_delete(row) {
 		var id = row.cells[0].innerHTML;
 		var year = row.cells[1].innerHTML;
-		var _month = row.cells[2].innerHTML;
+		var type = row.cells[2].innerHTML;
+		var days = row.cells[3].innerHTML;
 	
 		if (window.XMLHttpRequest) {
 		    xmlhttp = new XMLHttpRequest();
 		} else {
 		    xmlhttp = new ActiveObject("Microsoft.XMLHTTP");
 		}
-		var mess = "./allowance_show.php?operation=delete&id="+id+"&year="+year+"&_month="+_month;
+		var mess = "./allowance_show.php?operation=delete&id="+id+"&year="+year+"&type="+type+"&days="+days;
 		//alert(mess);
 		xmlhttp.open("GET", mess, true);
 		xmlhttp.send();
@@ -81,14 +81,15 @@
 	function allowance_update(row) {
 		var id = row.cells[0].innerHTML;
 		var year = row.cells[1].innerHTML;
-		var _month = row.cells[2].innerHTML;
+		var type = row.cells[2].innerHTML;
+		var days = row.cells[3].innerHTML;
 		if (window.XMLHttpRequest) {
 		    xmlhttp = new XMLHttpRequest();
 		} else {
 		    xmlhttp = new ActiveObject("Microsoft.XMLHTTP");
 		}
-		var mess = "./allowance_show.php?operation=update&id="+id+"&year="+year+"&_month="+_month;
-		alert(mess);
+		var mess = "./allowance_show.php?operation=update&id="+id+"&year="+year+"&type="+type+"&days="+days;
+		//alert(mess);
 		xmlhttp.open("GET", mess, true);
 		xmlhttp.send();
 		xmlhttp.onreadystatechange=function(){

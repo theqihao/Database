@@ -47,7 +47,7 @@
 						</span>
 						<span>
 							<p class="navi_title">About</p>
-							<p><a href="">insert</a></p>
+							<p><a href="about.php">show</a></p>
 						</span>
 					</div>
 				</div>
