@@ -26,9 +26,8 @@
 							<p><a href="employee_update.php">update</a></p> -->
 						</span>
 						<span>
-							<p class="navi_title">Wage</p>
-							<p><a href="">insert</a></p>
-							<p><a href="">delete</a></p>
+							<p class="navi_title"><a href="wage_show.php">Wage</p>
+							<p><a href="wage_insert.php">insert</a></p>
 						</span>
 						<span>
 							<p class="navi_title">Attendance</p>

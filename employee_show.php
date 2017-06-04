@@ -1,4 +1,3 @@
-
 <?php
 	include "employee.php";
 	include "menu.php";
@@ -90,7 +89,7 @@
 	$sql = "select * from employee";
 	$retval = mysqli_query($conn, $sql);
 	if (!$retval) {
-		die('can not insert data: ' . mysqli_error($conn));
+		die('can not select data: ' . mysqli_error($conn));
 	}
 	echo "<link rel='stylesheet' type='text/css' href='index.css'/>";
 	echo "<table id='employee_table'>".
