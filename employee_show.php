@@ -137,7 +137,7 @@
 		var position = row.cells[3].innerHTML;
 		var department = row.cells[4].innerHTML;
 		var pass = row.cells[5].innerHTML;
-	//s	alert(id+name+sex+position+department+pass);
+		//	alert(id+name+sex+position+department+pass);
 	
 		if (window.XMLHttpRequest) {
 		    xmlhttp = new XMLHttpRequest();
@@ -149,7 +149,7 @@
 		xmlhttp.send();
 		xmlhttp.onreadystatechange=function(){
 		    if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
-		        alert("delete data sucess");
+		        //alert("delete data sucess");
 				fresh();
 		    }
 		}
@@ -172,7 +172,7 @@
 		}
 		var mess = "./employee_show.php?operation=update&id="+id;
 		mess = mess + "&name="+name+"&sex="+sex+"&position="+position+"&department="+department+"&pass="+pass;
-		alert(mess);
+		//alert(mess);
 		xmlhttp.open("GET", mess, true);
 		xmlhttp.send();
 		xmlhttp.onreadystatechange=function(){

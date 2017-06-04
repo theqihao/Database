@@ -36,6 +36,7 @@
 				<option value="8000">8000</option>
 				<option value="9000">9000</option>
 				<option value="10000">10000</option>
+				<option value="11000">11000</option>
 				<option value="12000">12000</option>
 				<option value="13000">13000</option>
 				<option value="14000">14000</option>

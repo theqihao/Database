@@ -73,7 +73,7 @@
 			setcookie('money','');
 			setcookie('money',$_GET['money']);
 
-
+			mysqli_close($conn);
 			$url = "http://172.17.0.1/wage_update.php";
 			echo "<script language='JavaScript'>";  
 			echo "location.href='$url'";  
