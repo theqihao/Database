@@ -46,6 +46,11 @@
 							<p><a href="allowance_show.php">show</a></p>
 						</span>
 						<span>
+							<p class="navi_title">Function</p>
+							<p><a href="annual.php">annual</a></p>
+							<p><a href="search.php">search</a></p>
+						</span>
+						<span>
 							<p class="navi_title">About</p>
 							<p><a href="about.php">show</a></p>
 						</span>

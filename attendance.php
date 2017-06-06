@@ -82,11 +82,11 @@
             echo "<script type='text/javascript'> set_url(); </script>";
             mysqli_close($conn);
 		} else if ($_GET['operation'] == 'update') {
-			setcookie('id','');
+			setcookie('id','',0);
 			setcookie('id',$_GET['id']);
-			setcookie('year','');
+			setcookie('year','',0);
 			setcookie('year',$_GET['year']);
-			setcookie('_month','');
+			setcookie('_month','',0);
 			setcookie('_month',$_GET['_month']);
 
 			mysqli_close($conn);
@@ -97,7 +97,7 @@
 		}
 		
 	}
-	setcookie('post_op','');
+	setcookie('post_op','',0);
 	setcookie('post_op','null');
 ?>
 <script type="text/javascript">

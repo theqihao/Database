@@ -88,13 +88,13 @@
             echo "<script type='text/javascript'> set_url(); </script>";
             mysqli_close($conn);
 		} else if ($_GET['operation'] == 'update') {
-			setcookie('id','');
+			setcookie('id','', 0);
 			setcookie('id',$_GET['id']);
-			setcookie('year','');
+			setcookie('year','', 0);
 			setcookie('year',$_GET['year']);
-			setcookie('type','');
+			setcookie('type','', 0);
 			setcookie('type',$_GET['type']);
-			setcookie('days','');
+			setcookie('days','', 0);
 			setcookie('days',$_GET['days']);
 
 			mysqli_close($conn);
@@ -106,7 +106,7 @@
 		
 	}
 	setcookie('post_op','');
-	setcookie('post_op','null');
+	setcookie('post_op','null',0);
 ?>
 <script type="text/javascript">
 	set_url();

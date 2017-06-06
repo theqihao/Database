@@ -71,10 +71,6 @@ create table salary
 	check (1000.0 <= money and money <= 20000.0)
 );
 
-*/
-
-/*
-drop table if exists allowance;
 create table allowance
 (
 	id varchar(8) not null,
@@ -89,7 +85,7 @@ create table allowance
 	check (1 <= days and days <= 50),
 	check (100 <= money and money <= 3000)
 );
-*/
+
 
 
 /*

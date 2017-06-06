@@ -1,5 +1,7 @@
+
 <?php
 	include "menu.php";
+
 	setcookie('post_op','');
 	setcookie('post_op','employee_update');
 	$_SESSION['post_op'] = 'employee_update';
@@ -67,3 +69,4 @@
 <style type="text/css">
 	.submit{ border:1px solid #F00; width:200px; height:50px; align-self: center;} 
 </style>
+

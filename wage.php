@@ -68,9 +68,9 @@
             echo "<script type='text/javascript'> set_url(); </script>";
             mysqli_close($conn);
 		} else if ($_GET['operation'] == 'update') {
-			setcookie('position','');
+			setcookie('position','', 0);
 			setcookie('position',$_GET['position']);
-			setcookie('money','');
+			setcookie('money','', 0);
 			setcookie('money',$_GET['money']);
 
 			mysqli_close($conn);

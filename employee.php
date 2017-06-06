@@ -78,22 +78,22 @@
             echo "<script type='text/javascript'> set_url(); </script>";
             mysqli_close($conn);
 		} else if ($_GET['operation'] == 'update') {
-			setcookie('id','');
+			setcookie('id','',0);
 			setcookie('id',$_GET['id']);
-			setcookie('name','');
+			setcookie('name','',0);
 			setcookie('name',$_GET['name']);
-			setcookie('sex','');
+			setcookie('sex','',0);
 			setcookie('sex',$_GET['sex']);
-			setcookie('position','');
+			setcookie('position','', 0);
 			setcookie('position',$_GET['position']);
-			setcookie('department','');
+			setcookie('department','',0);
 			setcookie('department',$_GET['department']);
-			setcookie('pass','');
+			setcookie('pass','',0);
 			setcookie('pass',$_GET['pass']);
-
 
 			$url = "http://172.17.0.1/employee_update.php";
 			echo "<script language='JavaScript'>";  
+			echo "location.href='$url'";  
 			echo "location.href='$url'";  
 			echo "</script>"; 
 		}
@@ -118,7 +118,7 @@
 		*/
 		
 	}
-	setcookie('post_op','');
+	setcookie('post_op','',0);
 	setcookie('post_op','null');
 ?>
 <script type="text/javascript">
