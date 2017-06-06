@@ -39,16 +39,17 @@
 						<span> 
 							<p class="navi_title"><a href="salary_show.php">Salary</p>
 							<p><a href="salary_show.php">show</a></p>
+							<p><a href="search.php">search</a></p>
 						</span>
 						<span>
 							<p class="navi_title"><a href="allowance_show.php">Allowance</p>
 							<p><a href="allowance_insert.php">insert</a></p>
 							<p><a href="allowance_show.php">show</a></p>
+							<p><a href="annual.php">annual</a></p>
 						</span>
 						<span>
 							<p class="navi_title">Function</p>
-							<p><a href="annual.php">annual</a></p>
-							<p><a href="search.php">search</a></p>
+							<p><a href="department.php">dapartment</a></p>
 						</span>
 						<span>
 							<p class="navi_title">About</p>
