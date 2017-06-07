@@ -84,6 +84,3 @@
 	</table>
 	<div align="left"><input class="submit" type="submit" name="submit" value="Submit"/></div>
 </form>
-<style type="text/css">
-	
-</style>

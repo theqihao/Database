@@ -32,16 +32,17 @@ create table employee
 
 	check (sex in ('man', 'woman'))
 );
-
+*/
+drop table if exists wage;
 create table wage
 (
-	position varchar(16) not null,
+	position varchar(32) not null,
 	money int not null,
 	primary key (position),
 	check (2000 <= money and money <= 20000)
 );
 
-
+/*
 create table attendance
 (
 	id varchar(8) not null,

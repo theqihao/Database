@@ -1,6 +1,6 @@
 <?php
 	include "menu.php";
-	setcookie('post_op', '');
+	setcookie('post_op', '', 0);
 	setcookie('post_op','wage_insert');
 ?>
 <form method="post" action="wage.php">

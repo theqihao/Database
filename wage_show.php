@@ -86,7 +86,7 @@
 				//fresh();
 		    }
 		}
-		
+		window.location.href="http://172.17.0.1/wage_update.php";
 		window.location.href="http://172.17.0.1/wage_update.php";
 	}
 </script>

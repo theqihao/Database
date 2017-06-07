@@ -40,7 +40,8 @@
 						<span> 
 							<p class="navi_title"><a href="salary_show.php">Salary</p>
 							<p><a href="salary_show.php">show</a></p>
-							<p><a href="search.php">search</a></p>
+							<p><a href="searchbyid.php">search by id</a></p>
+							<p><a href="searchbymonth.php">search by month</a></p>
 						</span>
 						<span>
 							<p class="navi_title"><a href="allowance_show.php">Allowance</p>
