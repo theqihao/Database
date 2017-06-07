@@ -54,8 +54,9 @@
 							<p><a href="department.php">dapartment</a></p>
 						</span>
 						<span>
-							<p class="navi_title">About</p>
+							<p class="navi_title">Account</p>
 							<p><a href="about.php">show</a></p>
+							<p><a href="index.php">Log out</a></p>
 						</span>
 						<span>
 							<p class="navi_title">Account</p>
