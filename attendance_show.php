@@ -35,10 +35,10 @@
 			"<td>{$row['_month']}</td>".
 			"<td>{$row['rate']}</td>".
 			"<td>".
-			"<input type='button' value='update' onclick='attendance_update(this.parentNode.parentNode)'></input>".
+			"<input type='button' value='update' style='width:100px;height:30px;background-color:#ffffff;' onclick='attendance_update(this.parentNode.parentNode)'></input>".
             "</td>".
             "<td>".
-            "<input type='button' value='delete' onclick='attendance_delete(this.parentNode.parentNode)'></input>".
+            "<input type='button' value='delete' style='width:100px;height:30px;background-color:#ffffff;' onclick='attendance_delete(this.parentNode.parentNode)'></input>".
             "</td>".
 		"</tr>";
 	}

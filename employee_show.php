@@ -112,10 +112,10 @@
 			"<td>{$row['department']}</td>".
 			"<td>{$row['pass']}</td>".
 			"<td>".
-			"<input type='button' value='update' onclick='employee_update(this.parentNode.parentNode)'></input>".
+			"<input type='button' value='update' style='width:100px;height:30px;background-color:#ffffff;' onclick='employee_update(this.parentNode.parentNode)'></input>".
             "</td>".
             "<td>".
-            "<input type='button' value='delete' onclick='employee_delete(this.parentNode.parentNode)'></input>".
+            "<input type='button' value='delete' style='width:100px;height:30px;background-color:#ffffff;' onclick='employee_delete(this.parentNode.parentNode)'></input>".
             "</td>".
 		"</tr>";
 	}

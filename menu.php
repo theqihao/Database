@@ -11,7 +11,8 @@
         <link rel="stylesheet" type="text/css" href="./index.css" /> 
     </head>
 
-    <body style="background-image:url('./images/wood3.jpg');background-position:center; background-repeat:repeat">
+    <!--body style="background-image:url('./images/wood3.jpg');background-position:center; background-repeat:repeat" -->
+    <body>
 		<div>
 			<div class="navi_body">
 				<div class="navi_head">

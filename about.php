@@ -6,7 +6,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="./index.css" /> 
 </head>
-<body style="background-image:url('./images/wood3.jpg');background-position:center; background-repeat:repeat">
+<body>
 	<table>
 		<tr>
 			<td>Name</td>

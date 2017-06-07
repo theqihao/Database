@@ -1,7 +1,7 @@
 <?php
 	include "menu.php";
 ?>
-
+<br/>
 <form method="post" action="search.php">
 	<select name="search_id">
 	<?php
@@ -32,7 +32,7 @@
 		mysqli_close($conn);
 	?>
 	</select>
-	<input type="submit" name="submit" value="search"/>
+	<input type="submit" name="submit" style="width:103px;height:35px;background-color:#00f000;"  value="search"/>
 </form>
 
 <?php

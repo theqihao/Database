@@ -37,10 +37,10 @@
 			"<td>{$row['days']}</td>".
 			"<td>{$row['money']}</td>".
 			"<td>".
-			"<input type='button' value='update' onclick='allowance_update(this.parentNode.parentNode)'></input>".
+			"<input type='button' value='update' style='width:100px;height:30px;background-color:#ffffff;' onclick='allowance_update(this.parentNode.parentNode)'></input>".
             "</td>".
             "<td>".
-            "<input type='button' value='delete' onclick='allowance_delete(this.parentNode.parentNode)'></input>".
+            "<input type='button' value='delete' style='width:100px;height:30px;background-color:#ffffff;' onclick='allowance_delete(this.parentNode.parentNode)'></input>".
             "</td>".
 		"</tr>";
 	}

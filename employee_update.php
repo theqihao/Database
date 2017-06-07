@@ -64,9 +64,5 @@
 			<td><input type="text" name="pass" <?php echo "value='$pass'" ?> /></td>
 		</tr>		
 	</table>
-	<div align="left"><input style="background:#FFF; color:#0F0" class="submit" type="submit" name="submit" value="Update"/></div>
+	<div align="left"><input class="submit" type="submit" name="submit" value="Update"/></div>
 </form>
-<style type="text/css">
-	.submit{ border:1px solid #F00; width:200px; height:50px; align-self: center;} 
-</style>
-
