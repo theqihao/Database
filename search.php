@@ -21,7 +21,13 @@
 			die('can not select data: ' . mysqli_error($conn));
 		}
 		while($row = mysqli_fetch_array($retval)) {
-			echo "<option value={$row['id']}>{$row['id']}</option>";
+			if (isset($_POST['search_id']) && $row['id'] == $_POST['search_id']) {
+				//$id=$_POST['search_id'];
+				echo "<option value={$row['id']} selected>{$row['id']}</option>";
+			} else {
+				echo "<option value={$row['id']}>{$row['id']}</option>";
+			}
+			
 		}
 		mysqli_close($conn);
 	?>
