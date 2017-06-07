@@ -57,6 +57,10 @@
 							<p class="navi_title">About</p>
 							<p><a href="about.php">show</a></p>
 						</span>
+						<span>
+							<p class="navi_title">Account</p>
+							<p><a href="index.php">Log out</a></p>
+						</span>
 					</div>
 				</div>
 			</div>

@@ -145,7 +145,7 @@
 		    xmlhttp = new ActiveObject("Microsoft.XMLHTTP");
 		}
 		xmlhttp.open("GET", "./employee_show.php?operation=delete&id="+id, true);
-		alert("./employee_show.php?operation=delete&id="+id);
+		//alert("./employee_show.php?operation=delete&id="+id);
 		xmlhttp.send();
 		xmlhttp.onreadystatechange=function(){
 		    if(xmlhttp.readyState == 4 && xmlhttp.status == 200){

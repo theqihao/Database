@@ -29,32 +29,6 @@ function employee() {
 	?>
 }
 
-function employee_delete(row) {
-	alert("qihao");
-	//employee_table
-	var id = row.cells[0].innerHTML;
-	alert(id);
-    if (window.XMLHttpRequest) {
-        xmlhttp = new XMLHttpRequest();
-    } else {
-        xmlhttp = new ActiveObject("Microsoft.XMLHTTP");
-    }
-    alert("javasrcipt");
-    
-
-    /*
-    console.log("./index.php?operation=delete&id="+id);  
-    xmlhttp.open("GET","./index.php?operation=delete&id="+id,true);
-    xmlhttp.send();
-        
-	xmlhttp.onreadystatechange=function(){
-        if(xmlhttp.readyState==4 && xmlhttp.status==200){
-	        alert("delete data sucess");
-			fresh("http://172.17.0.1/admin.php");
-        }
-    }
-    */
-}
 
 function fresh(url) {
     window.location.href=url;
