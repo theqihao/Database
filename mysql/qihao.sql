@@ -6,6 +6,9 @@ mysql -u root -p < /home/qihao/html/mysql/qihao.sql;
 foreign key (position) references wage(position),
 show tables;
 desc allowance;
+// backup
+mysqldump -uroot -p0 --default-character-set=utf8 qihao  > /home/qihao/html/backup/qihao.sql
+
 */
 
 use qihao;
@@ -32,7 +35,7 @@ create table employee
 
 	check (sex in ('man', 'woman'))
 );
-*/
+
 drop table if exists wage;
 create table wage
 (
@@ -42,7 +45,6 @@ create table wage
 	check (2000 <= money and money <= 20000)
 );
 
-/*
 create table attendance
 (
 	id varchar(8) not null,

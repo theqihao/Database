@@ -61,7 +61,7 @@
 			"</tr>";
 		}
 		echo "</table>";
-		$retval = mysqli_query($conn, $sql);
+		//$retval = mysqli_query($conn, $sql);
 		//echo "<input type='button' value='test' onclick='fresh('http://172.17.0.1/admin.php')'></input>";
 		mysqli_close($conn);
 	}

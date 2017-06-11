@@ -22,7 +22,6 @@
 		}
 		while($row = mysqli_fetch_array($retval)) {
 			if (isset($_POST['search_id']) && $row['id'] == $_POST['search_id']) {
-				//$id=$_POST['search_id'];
 				echo "<option value={$row['id']} selected>{$row['id']}</option>";
 			} else {
 				echo "<option value={$row['id']}>{$row['id']}</option>";
@@ -109,7 +108,7 @@
 			"</tr>";
 		}
 		echo "</table>";
-		$retval = mysqli_query($conn, $sql);
+		//$retval = mysqli_query($conn, $sql);
 		//echo "<input type='button' value='test' onclick='fresh('http://172.17.0.1/admin.php')'></input>";
 		mysqli_close($conn);
 	}
